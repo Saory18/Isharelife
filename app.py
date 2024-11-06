@@ -239,7 +239,7 @@ elif st.session_state[PAGE_SELECTION_KEY] == "Chat":
 
     if "messages" not in st.session_state:
         st.session_state["messages"] = [
-            {"role": "assistant", "content": "Como posso ajudar você?"}
+            {"role": "assistant", "content": "Olá, me chamo Lisa! Como posso ajudar você?"}
         ]
 
     for msg in st.session_state.messages:
